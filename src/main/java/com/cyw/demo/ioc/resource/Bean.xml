@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="user" class="com.cyw.demo.entity.User">
+        <property name="id" value="1"/>
+        <property name="name" value="尉哥"/>
+        <property name="age" value="23"/>
+    </bean>
+    <bean id="dog" class="com.cyw.demo.entity.Dog">
+        <property name="id" value="2"/>
+        <property name="name" value="猪猪"/>
+        <property name="age" value="6"/>
+    </bean>
+</beans>
